@@ -55,7 +55,7 @@ def port_scanner(ip):
             thread = threading.Thread(target=scan_port, args=(ip, port))
             thread.start()
     except KeyboardInterrupt:
-        print(colored("\nTarama işlemi iptal edildi! Ana menüye dönülüyor...\n", "red"))
+        print(colored("\nScanning process aborted! Returning to Menu...\n", "red"))
         main_menu()
 
 def port_listener():
