@@ -305,7 +305,7 @@ def generate_encrypted_powershell_payload():
 def main_menu():
     while True:
         print(colored("\n[ SYD - Cyber Security Tools ]", "cyan", attrs=["bold"]))
-        print(colored("\n [OSINT Tools]", "purple", attrs=["bold"]))
+        print(colored("\n [OSINT Tools]", "green", attrs=["bold"]))
         print(colored("1 - SYD_Port_Scanner", "green"))
         print(colored("2 - SYD_NetDiscovery", "green"))
         print(colored("3 - TCP Port Listener", "yellow"))
